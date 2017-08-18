@@ -1,0 +1,11 @@
+---
+layout: default
+---
+
+{% for post in site.posts limit: 10 %}
+
+	<h4 style="margin-top: 48px;"><a href="{{post.url}}" style="color: black;">{{post.title}}</a></h4>
+	<h6 style="font-size: 12px; margin-bottom: 24px;">{{post.category}} | {{post.date | date_to_string}}</h6>
+	<p>{{post.content | truncatewords: 75}}<a href="{{post.url}}">more</a></p>
+
+{% endfor %}

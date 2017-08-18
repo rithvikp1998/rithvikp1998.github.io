@@ -1,0 +1,7 @@
+---
+title: 2-3 Weeks They Said
+layout: post
+category: SBC
+---
+
+Long story long. Both processor and RAM used are in BGA packaging which need high precision manufacturing facilities. I tried many companies in India and either they do not meet the requirements or they did not reply to my mail asking for specs or they are just too expensive. So, I ordered the board from OSHPark, a great company offering high quality boards at a reasonably low price, and stencils from OSHStencils, who are inspired from OSHPark but make stencils. Both the companies shipped my order long ago but damn the customs and postal service, I didn't receive any of them. I mailed them asking for help and both of them have been kind enough to ship replacements. The replacement from OSHStencils left San Francisco on 26-02 but didn't reach me. The replacement from OSHPark is yet to be shipped. Sigh! Such a sad waste of money. I have no other choice than to wait for the package to arrive. I'll try contacting the courier services myself but I don't know if it helps, thanks to international shipping :( And the worse part is: I have components lying around useless in my room. Nevertheless, OS part is going well and I am currently thinking of doing something else, hardware wise, and this time I won't send it to manufacturing. I'll just design and leave, until I find a cheap and good PCB facility in India.

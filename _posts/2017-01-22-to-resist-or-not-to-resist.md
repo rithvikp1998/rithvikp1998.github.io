@@ -1,0 +1,7 @@
+---
+title: To Resist or not to Resist
+layout: post
+category: SBC
+---
+
+Bad title? Whatever. The schematic for the board is almost done except for one part. High frequency DDR3 signals need terminal resistors in their signal lines to reduce reflections(more [here](http://electronics.stackexchange.com/questions/10884/how-termination-resistors-work-what-happens-if-i-use-lower-values)). It is a good practice to have terminating resistors but it will increase the complexity of the board and the RAM chip I'm using has on-die termination([ODT](https://en.wikipedia.org/wiki/On-die_termination)) which should do the job. If I don't use terminating resistors and if my chip's ODT doesn't work the way I'm assuming it would, the board will have problems working. Many people said their boards worked without terminating resistors but at low frequencies like 100-150 MHz. I don't want to pull that risk and jeopardise the project. However I could always simulate my PCB design on [Hyperlynx](https://www.mentor.com/pcb/hyperlynx/) and test the signal integrity but I won't be able to simulate all the details as the PCB manufacturer I am going to send this board to is not yet decided. Maybe it's time to go beyond Stackexchange and start reading a proper textbook on high frequency PCB layout. Before that, I should read the RAM's datasheet more properly and then decide.

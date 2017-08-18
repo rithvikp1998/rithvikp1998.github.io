@@ -1,0 +1,7 @@
+---
+title: Choosing Memory
+layout: post
+category: SBC
+---
+
+There are different types of memory. To put it in layman's language, the three types are ROM, RAM(commonly called Memory) and Mass Memory(commonly called storage). ROM is non-volatile i.e. the data doesn't get erased after electricity is cut off. It is generally used to store the boot loader. RAM is volatile i.e. the data gets erased as soon as electricity is cut off. Mass memory is used to store large files like OSes and other programs. This is also non-volatile but it is meant to be rewritten unlike ROM where the data is rarely, if not never, rewritten. The processor I chose has 176KB on-chip [EEPROM ](https://en.wikipedia.org/wiki/EEPROM)which should be sufficient enough to store the boot loader. I chose a[ 2Gbit DDR3 memory from mouser](http://www.mouser.in/ProductDetail/ISSI/IS43TR16128B-125KBL/?qs=sGAEpiMZZMti5BT4iPSEnbunKZArXaOPJwTWk81F128%3d) because it is cheaper than other memory chips that I could get in India. My processor has max DDR3 data-speed of 800MHz whereas the RAM I chose is 1600MHz but like I said it is cheaper than other memory chips so no loss here. For storage, first I looked for NAND Flash ICs from mouser but 4Gbit and 8Gbit chips cost approx INR300 and INR600 respectively whereas a 16GByte micro SD card costs INR300. I guess mass production is the reason for this abnormality and I decided to use a micro SD card for storage.

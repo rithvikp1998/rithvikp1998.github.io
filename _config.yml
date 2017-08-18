@@ -1,0 +1,26 @@
+# Site info
+title: Blog - Rithvik Patibandla
+description: > # this means to ignore newlines until "github_username:"
+    Personal blog to share progress on different projects that I have worked (or am working) on
+baseurl: /
+
+# Personal Info    
+email: rithvikp98@gmail.com
+github_username:  rithvikp1998
+
+# Build settings
+markdown: kramdown
+plugins:
+  - jekyll-feed
+
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+# exclude:
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/

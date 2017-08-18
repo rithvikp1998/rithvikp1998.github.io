@@ -1,0 +1,13 @@
+html, body {
+	height: 100%;
+	width: 100%;
+	font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+}
+
+.main-container {
+	height: 100%;
+	width: 100%;
+}

@@ -1,0 +1,7 @@
+---
+title: Rise From The Ashes
+layout: post
+category: SBC
+---
+
+My approach to the this board was different. The whole purpose was to build a simple SBC that does nothing special so that I can learn without any hassle. As it turned out, making a simple board with just CPU, RAM, micro-SD and USB-A is not that hard. Really, it took me less than a  month to learn and design the board. And as far as I can see, the only thing that I skipped in this board was matching the trace lengths of high speed DDR traces and using terminating resistors, but it was done so because I stuck to a 4 layer board to reduce printing costs. It got me thinking now. How about a completely opposite approach? I mean, how about building a complete laptop motherboard with all the bells and whistles and maxed out configuration? Or, to put it in a different perspective, what if I were a hardware engineer at Dell or Apple or HP and I set out to make a new motherboard for one of the company's upcoming laptops? Then I need not worry about manufacturing costs and just stick to making a great mother board, right? Hmm, interesting. This idea was in the back of my head for a while, but in writing, it really looks nice to me. This time I won't do the stupid mistake of trying to manufacture it, I'll just design it and leave. I have enough time and nothing to lose, so it is definitely worth a serious shot. Let's see how it goes...
