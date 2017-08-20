@@ -2,7 +2,7 @@
 title: Blog - Rithvik Patibandla
 description: > # this means to ignore newlines until "github_username:"
     Personal blog to share progress on different projects that I have worked (or am working) on
-baseurl: /
+baseurl: ""
 
 # Personal Info    
 email: rithvikp98@gmail.com
