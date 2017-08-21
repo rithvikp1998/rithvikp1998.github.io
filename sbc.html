@@ -1,11 +1,15 @@
 ---
 layout: default
 ---
+<h4 style="margin-top: 48px;">Prologue</h4>
+<p>
+	I am building a low power, small single board computer based on ARM Cortex-A8 processor from Texas Instruments. The first prototype of the board has been designed and printed, but I ran into some problems and looking for differnt ways to fix them. The goal is to make a working board that runs Linux and preferably a custom made kernel myOS.	
+</p>
 
 {% for post in site.categories.SBC %}
 
 	<h4 style="margin-top: 48px;"><a href="{{post.url}}" style="color: black;">{{post.title}}</a></h4>
-	<h6 style="font-size: 12px; margin-bottom: 24px;">{{post.category}} | {{post.date | date_to_string}}</h6>
+	<h6 style="font-size: 12px; margin-bottom: 24px;">{{post.date | date_to_string}}</h6>
 	<p>{{post.content | truncatewords: 75}}<a href="{{post.url}}">more</a></p>
 
 {% endfor %}

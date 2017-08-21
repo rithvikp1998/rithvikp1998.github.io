@@ -2,10 +2,15 @@
 layout: default
 ---
 
+<h4 style="margin-top: 48px;">Prologue</h4>
+<p>
+	myOS is a custom made 32-bit kernel currently being built on x86 and will be ported to ARM once it reaches a strong and stable state. The goal is to run this on the single board computer that I am building. Both SBC and myOS are a part of my 2017's New Year resolution, so the only deadline is Dec 31 2017. Until then, I'll keep building this and see where it reaches.
+</p>
+
 {% for post in site.categories.myOS %}
 
 	<h4 style="margin-top: 48px;"><a href="{{post.url}}" style="color: black;">{{post.title}}</a></h4>
-	<h6 style="font-size: 12px; margin-bottom: 24px;">{{post.category}} | {{post.date | date_to_string}}</h6>
+	<h6 style="font-size: 12px; margin-bottom: 24px;">{{post.date | date_to_string}}</h6>
 	<p>{{post.content | truncatewords: 75}}<a href="{{post.url}}">more</a></p>
 
 {% endfor %}

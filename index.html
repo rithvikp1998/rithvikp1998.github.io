@@ -2,6 +2,11 @@
 layout: default
 ---
 
+<h4 style="margin-top: 48px;">Prologue</h4>
+<p>
+	This blog serves as a development log for the projects that I am, was or will be working on. The home page shows recent posts from all the projects wheras the different project tabs show the complete posts regarding that project. The site will keep growing as I take up new projects and archive old ones. If you have a doubt, comment or a suggestion, please check out my contact details in <a href="{{site.baseurl}}/about.html">iMeMyself</a>. Happy reading!
+</p>
+
 {% for post in site.posts limit: 10 %}
 
 	<h4 style="margin-top: 48px;"><a href="{{post.url}}" style="color: black;">{{post.title}}</a></h4>
