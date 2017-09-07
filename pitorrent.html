@@ -1,0 +1,16 @@
+---
+layout: default
+---
+
+<h4 style="margin-top: 48px;">Prologue</h4>
+<p>
+	piTorrent is a simple BitTorrent client written in Python 3. Just like everything else I do, there is nothing special about this except that I want to figure out how things work. I have looked a bit into the protocol and simple clients that other people built and it doesn't look code-heavy, so I added a little constraint here: I will build this as a 72-hour challenge, i.e., starting from reading the official spec, the entire project will be done in under 72 hours.
+</p>
+
+{% for post in site.categories.piTorrent %}
+
+	<h4 style="margin-top: 48px;"><a href="{{post.url}}" style="color: black;">{{post.title}}</a></h4>
+	<h6 style="font-size: 12px; margin-bottom: 24px;">{{post.category}} | {{post.date | date_to_string}}</h6>
+	<p>{{post.content | truncatewords: 75}}<a href="{{post.url}}">more</a></p>
+
+{% endfor %}
