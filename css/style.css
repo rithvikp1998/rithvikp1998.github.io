@@ -11,3 +11,11 @@ html, body {
 	height: 100%;
 	width: 100%;
 }
+
+img {
+	width: 30%;
+	display: block; 
+	margin: 0 auto;
+	margin-top: 24px;
+	margin-bottom: 24px;
+}
