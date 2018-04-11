@@ -1,0 +1,7 @@
+---
+title: Back to square one, wiser than ever
+layout: post
+category: unsorted
+---
+
+When my last year's new year resolutions failed spectacularly, I got very disappointed and I abandoned them altogether which, in hindsight, feels like a very sucky thing to do. Because SBC and myOS are the most challenging tasks I have undertaken so far. Now, don't get me wrong, I am not undermining my own work in other areas like AUV and GSoC. When I say challenging, it is because 1. I have no prior experience in them when I started (Heck, I was not even comfortable in C when I started myOS let alone operating system concepts), 2. I have virtually no mentors to help me out when I get stuck or recongnize a mistake and point it out (like during GSoC) and 3. Debugging is hard. These problems are unique to these projects and hence I say they are the most challenging. Thankfully, both the projects are not based on new ideas, so I have virtually unlimited resources on the internet to refer to when I get stuck. Nevertheless, progress had been slow and I had been lazy. So, after much consideration, I decided to give both of these (not piTorrent, it was a scam!) a second shot after the summer is over. I say 'after summer' because my summer could end up jam-packed. I have an internship from Amazon, India and I applied to GSoC '18 too and I pray that I be selected. If I do get selected, my time will be sucked bone-dry but if I don't, then I can work on these.  Until then, goodbye!
